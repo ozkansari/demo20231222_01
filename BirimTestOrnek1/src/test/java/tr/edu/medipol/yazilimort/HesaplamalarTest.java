@@ -26,5 +26,9 @@ public class HesaplamalarTest {
 			assertEquals(sonuc1, sonuc2);
 		}
 	}
+	
+	public void testTopla2ve2() {
+		assertEquals(4, Hesaplamalar.topla(2, 2));
+	}
 
 }
